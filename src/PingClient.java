@@ -36,7 +36,7 @@ public class PingClient {
 			long endTime = System.currentTimeMillis();
 			System.out.println("ping to " + args[0] + ", seq = " + count + ", rtt = " + (endTime - startTime) + " ms");
 		} catch (SocketTimeoutException e) {
-			System.out.println("ping to " + args[0] + ", seq = " + count + ", rtt = timeout");
+			System.out.println("ping to " + args[0] + ", seq = " + count + ", rtt = timeout...");
 		}
 
 		}
